@@ -1,0 +1,269 @@
+*{
+    margin: 0;
+}
+ body{
+    background-color: #F7F9F9 ; 
+    
+ }
+
+/* --Homepage Styling-- */
+/*Navbar Styling*/
+nav{
+    text-align: center;
+    padding: 10px 0px;
+    background-color: #F7F9F9 ; 
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+nav a{
+    text-align: center;
+    border: 1px solid #141413;
+    padding: 1rem 1.2rem;
+    cursor: pointer;
+    border-radius: .40rem;
+    text-decoration: none;
+    font-size: 20px;
+    background-color: #F0F3F4;
+    margin: 0;
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin: 1% 1.5%;
+    font-family: 'Cormorant Garamond', serif;
+    color: #141413;
+    font-weight: bolder;
+}
+nav a:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+
+
+
+/*Head Title Styling*/
+.title{
+    height: 70vh;
+    background-image: url(./assets/hero.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    background-attachment: fixed;
+}
+.conquer{
+    padding-top: 250px;
+    font-size: 2em;
+    font-family: 'EB Garamond', serif;
+    letter-spacing: 5px;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+         0px 8px 13px rgba(0,0,0,0.1),
+         0px 18px 23px rgba(0,0,0,0.1);  
+}
+
+
+
+/* --About Us Styling-- */
+/*Top About Card Styling*/
+.cards{
+    padding-top: 180px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: left;
+    
+}
+.card {
+    border: 1px solid #d3d3d3;
+    border-radius: .25rem;
+    width: 350px;
+    height: auto;
+    margin: 15px;
+    background-color: #d9d3d2;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+} 
+img {
+    background-size: fill;
+    height: 300px;
+    width: 100%;
+    background-color: #ccc;
+    background-position: center;
+}
+.content {
+    padding: 10px;
+    font-family: 'Cormorant Garamond', serif;
+}
+.content h4{
+   font-size: 20px;
+}
+.content p{
+    padding-top: 20px;
+    font-weight: bolder;
+}
+button {
+    
+    transition: all 0.3s ease 0s;
+    padding: .5rem 1rem;
+    cursor: pointer;
+    border-radius: .25rem;
+    margin: 15px 0px;
+    background: #404040;
+    color: #ffffff ;
+    
+}
+button:hover {
+    color: #404040 ;
+    font-weight: 700 ;
+    letter-spacing: 2px;
+    background: none;
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    transition: all 0.3s ease 0s;
+    }
+/*Buttom About Column Styling*/
+.columns{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    padding-top: 100px;
+}
+.column{
+    border: 1px solid #d3d3d3;
+    border-radius: .25rem;
+    width: 530px;
+    height: auto;
+    margin: 15px;
+    background-color: #d9d3d2;
+    box-shadow: 0 4px 2px -3px;
+}
+
+
+
+
+
+/* --Services Styling-- */
+.services{
+    padding: 150px 0px; 
+    
+}
+/* Header in Service Section */
+.title.two{
+  height: 30vh;
+  background-image: url(./assets/er.jpg) ; 
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.our{
+    padding-top: 100px;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.2rem;
+    color: #141413;
+}
+/* Card Columns in Service Section */
+.cards.section{
+    padding: 150px 0px;
+}
+.card.column{
+    width: 250px;
+    text-align: center;
+}
+/* Big Card Column in Service Section */
+.big{
+    display: grid;
+    justify-content: center;
+}
+.column.big{
+    width: 80vw;
+}
+
+
+
+
+/* --Contact Styling-- */
+/* Above Form Style */
+.contact{
+    text-align: center;
+    height: 60vh;
+    background-image: url(./assets/form.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-top: 50px;
+    background-blend-mode: lighten;
+    color: white;
+}
+.form{
+    padding-bottom: 20px;
+}
+.box{
+    display: grid;
+    justify-content: center;
+    padding: 20px 0px;
+}
+.para{
+    width: 50vw;
+    padding: 10px;
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1; /* Grey text */
+    border-radius: 5px;
+}
+/* Form Style */
+form{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+input{
+    height: 40px;
+    width: 330px;
+    margin: 10px;
+    border-radius: 5px;
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+}
+textarea{
+    height: 180px;
+    width: 330px;
+    margin: 10px;
+    border-radius: 5px;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); 
+}
+/* Input Text Style */
+::placeholder {
+    color:#f1f1f1;
+    opacity: 1; 
+}
+
+
+
+
+
+/* --SIDE ARROW STYLE-- */
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 30px;
+    border: none;
+    outline: none;
+    background-color: #404040;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 4px;
+  }
+    
+
+
+
+@media only screen and (max-width: 800px) {
+    .contact {
+       height: 100vh;
+    }
+  }
+
+
